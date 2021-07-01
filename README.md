@@ -59,22 +59,23 @@ Comando **run** del Docker in **Windows Powershell** --> docker run --rm -v "${P
 
 Comando **run** del Docker in **Linux**             ---> docker run --rm -v "$(PWD):/home" cloud_fifa *PARAMETRO*
 
-
 Al posto della parola *PARAMETRO*, l'utente potrà scegliere di scrivere una delle seguenti 16 opzioni, a seconda dell'output che vuole ottenere.
 
-- opzioni	=> L'utente vuole vedere **tutte le opzioni disponibili**             
-- gn			  => L'utente vuole vedere i **giocatori divisi per nazione**        
-- ng			  => L'utente vuole vedere l'**età dei giocatori**                   
-- sp			  => L'utente vuole vedere le **squadre di club più popolari**       
-- gg  		  => L'utente vuole vedere i **giocatori più giovani**               
-- gv  		  => L'utente vuole vedere i **giocatori più vecchi**                
-- sg    		=> L'utente vuole vedere le **squadre mediamente più giovani**     
-- sv 		  => L'utente vuole vedere le **squadre mediamente più vecchie**     
-- gt			  => L'utente vuole vedere i **giocatori più forti**                 
-- di 		  => L'utente vuole vedere i **difensori centrali più forti**       
-- at 	  	=> L'utente vuole vedere gli **attaccanti più forti**             
-- ce 		  => L'utente vuole vedere i **centravanti più forti**              
-- as 		  => L'utente vuole vedere le **ali sinistre più forti**            
-- ad 		  => L'utente vuole vedere le **ali destre più forti**            
-- po 	  	=> L'utente vuole vedere i **portieri più forti**                 
-- all 	  	=> L'utente vuole vedere l'**output di tutte le analisi**  
+- -opzioni	=> L'utente vuole vedere **tutte le opzioni disponibili**             
+- -gn			  => L'utente vuole vedere i **giocatori divisi per nazione**        
+- -ng			  => L'utente vuole vedere l'**età dei giocatori**                   
+- -sp			  => L'utente vuole vedere le **squadre di club più popolari**       
+- -gg  		  => L'utente vuole vedere i **giocatori più giovani**               
+- -gv  		  => L'utente vuole vedere i **giocatori più vecchi**                
+- -sg    		=> L'utente vuole vedere le **squadre mediamente più giovani**     
+- -sv 		  => L'utente vuole vedere le **squadre mediamente più vecchie**     
+- -gt			  => L'utente vuole vedere i **giocatori più forti**                 
+- -di 		  => L'utente vuole vedere i **difensori centrali più forti**       
+- -at 	  	=> L'utente vuole vedere gli **attaccanti più forti**             
+- -ce 		  => L'utente vuole vedere i **centravanti più forti**              
+- -as 		  => L'utente vuole vedere le **ali sinistre più forti**            
+- -ad 		  => L'utente vuole vedere le **ali destre più forti**            
+- -po 	  	=> L'utente vuole vedere i **portieri più forti**                 
+- -all 	  	=> L'utente vuole vedere l'**output di tutte le analisi**  
+
+L'operazione di *run* permetterà sia di eseguire il file main.py sia  di creare una'ssociazione tra la cartella *remota /home* e la cartella locale dove si è posizionati ( %cd% per Windows, $(PWD) Per linx), verrà quindi eseguita un'operazione di **BINDING** di un volume.
