@@ -181,7 +181,7 @@ descr_opzioni=[ "Tutte le opzioni",
                 "Attaccanti più forti in FIFA.png",
                 "Centravanti più forti in FIFA.png",
                 "Ali sinistre più forti in FIFA.png",
-                "Ali sinistre più forti in FIFA.png",
+                "Ali destre più forti in FIFA.png",
                 "Portieri più forti in FIFA.png",
                 "Analizza tutto"]
 
