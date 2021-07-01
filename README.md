@@ -1,6 +1,17 @@
 # Progetto n° 1: analisi del dataset di Fifa 2021
 
+## Contributori
+***
+[Sabrina Cenghialta](https://github.com/CenghialtaSabrina)
+
+[Laura Romano](https://github.com/laur-py)
+
+[Matteo Serra](https://github.com/MrTeoTZR)
+
+[Guido Ravasi](https://github.com/GuidoRavasi)
+
 ## Overview
+***
 Il progetto permette l'analisi di un dataset di calciatori di Fifa 2021. 
 Il file è già preimpostato per scaricare in autonomia il suddetto dataset senza quindi richiedere all'utente di procurarselo prima del run del Docker.
 
@@ -10,6 +21,7 @@ Il Dockerfile, infatti, fornisce le istruzioni necessarie per la creazione della
 L'output dell'analisi scelta viene anche salvato nella cartella locale dell'utente, all'indirizzo prefissato nel file (cioè nella cartella *materiale/results*).
 
 ## Prerequisiti
+***
 Prima di tutto, sarà indispensabile scaricare l'applicazione Docker Desktop nella propria macchina fisica, assieme ad un Kernel Linux.
 La procedura è molto semplice ed è descritta all'interno dei link sottostanti:
 
@@ -25,6 +37,7 @@ Poi, prima di passare alla fase di build e run del Docker, sarà necessario entr
 Comando per il posizionamento --> cd percorso
 
 ## Build del container
+***
 AL fine di effettuare la build del Docker, bisogna inserire il seguente comando nel prompt dei comandi. Questo servirà per creare un container chiamato "cloud_fifa", che verrà costruito a partire dalle istruzioni contenute all'interno del dockerfile.
 
 
@@ -36,6 +49,7 @@ Sempre autonomamente, il Docker creerà al suo interno la cartella "materiale/re
 Nella fase di build, viene indicato (nell'entry point) il file Python che il Docker dovrà eseguire durante la fase di run.
 
 ## Run del container
+***
 Per il run del Docker, bisognerà digitare il seguente comando nel prompt dei comandi, a seconda del sistema operativo utilizzato nel proprio pc.
 
 
